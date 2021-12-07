@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  background-color: #fcecdd;
+}
+
+header {
+  background-color: #343a40;
+  color: #ffc107;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  height: 250px;
+  margin-top: 20px;
+}
+
+.answer {
+  background-color: lightcoral;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.answer:hover {
+  transition: 0.5s;
+  background-color: lightsalmon;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: Tahoma;
+}
+
+.reset {
+  position: absolute;
+  background-color: lightcoral;
+  display: none;
+}
